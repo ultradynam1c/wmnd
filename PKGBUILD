@@ -8,7 +8,7 @@ pkgdesc="Dockapp for monitoring network interfaces."
 url="http://www.thregr.org/~wavexx/software/wmnd/"
 license=("GPL")
 depends=('libxpm' 'net-snmp')
-arch=('i686' 'x86_64')
+arch=('i686' 'x86_64' 'aarch64')
 source=(http://www.thregr.org/~wavexx/software/wmnd/releases/$pkgname-$pkgver.tar.gz)
 
 build() {
